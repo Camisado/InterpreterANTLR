@@ -1,0 +1,15 @@
+var x,y:integer;
+procedure xxx;
+var x:integer;
+begin
+writeln(x);
+end;
+procedure qwe(n : integer);
+var t:integer;
+    begin
+        for t:=n to 11 do if t <> 7 then writeln(t) else xxx;
+    end;
+begin
+    qwe(2);
+end
+.
